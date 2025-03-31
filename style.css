@@ -29,6 +29,35 @@ ul {
   justify-content: space-between;
 }
 
+.parent-div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15rem;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.illustration-image {
+  border-color: #3885f6;
+  height: 10rem;
+  border-radius: 1rem;
+  width: 100%;
+  border-style: solid;
+}
+
+.illustration-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  text-align: center;
+}
+
 .mid-div {
   display: flex;
   width: 50%;
@@ -63,6 +92,12 @@ ul {
 .header-logo-text {
   font-size: 24px;
   color: #f9faf8;
+}
+
+.information-header-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 button {
