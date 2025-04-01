@@ -27,6 +27,7 @@ ul {
 .parent-div {
   display: flex;
   justify-content: space-between;
+  gap: 5rem;
 }
 
 .parent-div2 {
@@ -34,6 +35,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: 0 15rem;
+  margin-bottom: 5rem;
 }
 
 .info-div {
@@ -112,4 +114,41 @@ button {
 
 p {
   margin-top: 0;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  font-weight: 300;
+  color: #1f2937;
+  padding: 5rem 20rem;
+}
+
+.quote-section h3 {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-section p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.call-to-action {
+  background-color: #3885f6;
+  border-radius: 5px;
+  margin: 5rem 10rem;
+  padding: 1rem 5rem;
+  color: #f9faf8;
+}
+
+.call-to-action button {
+  align-items: center;
+  border-color: #f9faf8;
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
 }
